@@ -1,3 +1,72 @@
 body {
+    margin: 115px auto 0;
+    background-color: #1F2937;
+    max-width: 550px;
+}
+
+h1 {
+    color: #4ADF86;
     margin: 0;
+    font-size: 40px;
+}
+
+.container {
+    margin-left: 52px;
+    position: relative;
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    width: 90%;
+    height: 1px;
+    background-color: #2F3E53;
+}
+
+.container__title-highlight {
+    color: #fff;
+    display: block;
+}
+
+.container__paragraph {
+    font-family: sans-serif;
+    margin: 10px 0 0;
+    color: #D5D4D8;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #10B981;
+    margin-top: 51px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    padding: 12px;
+    color: #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.button:hover {
+    background-color: hsla(160, 84%, 39%, 0.405);
+}
+
+form {
+    margin: 70px 0 0 52px;
+    display: flex;
+    gap: 24px;
+}
+
+#password1, #password2 {
+    width: 211px;
+    border-radius: 6px;
+    background-color: #273549;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #55F991;
+    outline: none;
+    text-align: center;
 }

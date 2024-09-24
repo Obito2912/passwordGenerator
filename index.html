@@ -3,7 +3,17 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1></h1>
+        <div class="container">
+            <h1><span class="container__title-highlight">Generate a</span> random password</h1>
+            <p class="container__paragraph">Never use an insecure password again.</p>
+            <button class="button">Generate passwords</button>
+        </div>
+        <div class="container__passwords">
+            <form>
+                <input readonly id="password1" type="text">
+                <input readonly id="password2" type="text">
+            </form>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
